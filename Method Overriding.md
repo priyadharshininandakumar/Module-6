@@ -14,7 +14,21 @@ To write a Python program that demonstrates class inheritance by creating a pare
 7. Output will demonstrate method overriding: printing `"fish"` and `"shark"` accordingly.
 
 ## 💻 PROGRAM:
+```
+class Rectangle:
+    def __init__(self, length, width):
+        self.__length = length  # Private variable
+        self.__width = width    # Private variable
+    
+    def print_values(self):
+        print(self.__length)
+        print(self.__width)
 
+rect = Rectangle(5, 3)
+rect.print_values()
+```
 ## OUTPUT
+![WhatsApp Image 2025-12-27 at 11 17 55 PM](https://github.com/user-attachments/assets/ce3c8bcf-daeb-4c32-b502-20096f0b606c)
 
 ## RESULT
+Thus, the program is executed successfully.
