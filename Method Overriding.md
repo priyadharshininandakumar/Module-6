@@ -15,20 +15,25 @@ To write a Python program that demonstrates class inheritance by creating a pare
 
 ## 💻 PROGRAM:
 ```
-class Rectangle:
-    def __init__(self, length, width):
-        self.__length = length  # Private variable
-        self.__width = width    # Private variable
-    
-    def print_values(self):
-        print(self.__length)
-        print(self.__width)
+class Fish:
+    def type(self):
+        print("fish")
 
-rect = Rectangle(5, 3)
-rect.print_values()
+
+class Shark:
+    def type(self):
+        print("shark")
+
+
+obj_goldfish = Fish()
+obj_hammerhead = Shark()
+
+obj_goldfish.type()
+obj_hammerhead.type()
 ```
 ## OUTPUT
-![WhatsApp Image 2025-12-27 at 11 17 55 PM](https://github.com/user-attachments/assets/ce3c8bcf-daeb-4c32-b502-20096f0b606c)
+![WhatsApp Image 2025-12-28 at 8 28 32 PM](https://github.com/user-attachments/assets/a89ed4b8-2e6d-4382-a3c9-226af9d9ca3d)
+
 
 ## RESULT
 Thus, the program is executed successfully.
